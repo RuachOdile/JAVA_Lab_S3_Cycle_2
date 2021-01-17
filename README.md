@@ -18,6 +18,6 @@ OBJECT ORIENTED PROGRAMMING LAB (IN JAVA) SET2
 
 5. Class with a method that prints "This is parent class" and its subclass with another method that prints "This is child class". Now, create an object for each of the class and call
 
-method of parent class by object of parent class
-method of child class by object of child class
-method of parent class by object of child class
+* method of parent class by object of parent class
+* method of child class by object of child class
+* method of parent class by object of child class
