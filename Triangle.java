@@ -1,6 +1,6 @@
 
-public class TriangleAr {
-	public TriangleAr() {
+public class Triangle {
+	public Triangle() {
 		double perimeter;
 		double area;
 	
@@ -17,6 +17,6 @@ public class TriangleAr {
 		
 	}
 	public static void main(String[] args) {
-		TriangleAr ob = new TriangleAr();
+		Triangle ob = new Triangle();
 	}
 }
