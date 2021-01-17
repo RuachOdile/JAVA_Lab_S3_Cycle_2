@@ -2,15 +2,15 @@ package com.company;
 
 import java.util.Scanner;
 
-public class AreaRectangle {
+public class Area {
 
  String area= "";
 
- AreaRectangle(double length,double breadth)
+ Area(double length,double breadth)
  {
      area=String.format("%.3f", (length*breadth));
  }
-    String printArea() 
+    String returnArea() 
     {
         return this.area;
     }
@@ -21,9 +21,9 @@ public class AreaRectangle {
       System.out.println("Enter  length and breadth of rectangle :");
       double length = sc.nextDouble();
       double breadth=sc.nextDouble();
-      AreaRectangle ob = new AreaRectangle(length,breadth);
+      Area ob = new Area(length,breadth);
       String area = "";
-      area=ob.printArea();
+      area=ob.returnArea();
 
       System.out.println("Area of rectangle = "+area);
 
